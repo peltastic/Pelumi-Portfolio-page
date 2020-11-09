@@ -13,8 +13,16 @@
 body {
   box-sizing: border-box;
   font-family: "Play", sans-serif;
-  /* background-color: #e18462; */
   background-image: url("./assets/pat.png");
+  
+
+}
+
+@media (max-width: 1000px) {
+  body {
+    background-color: #e18462;
+    background-image: none;
+  }
 }
 html {
   font-size: 62.5%;
